@@ -21,7 +21,7 @@ SCENARIO_DIR = (
     / "battery_replacer"
 )
 TASKFILE_PATH = SCENARIO_DIR / "taskfile_tampconfig_batteryreplacer.xml"
-TEST_TASKFILE = WORKSPACE_ROOT / "taskfile_tampconfig_batteryreplacer.xml"
+TEST_TASKFILE = WORKSPACE_ROOT / "RA_PF1" / "unk_unk.xml"
 PARSE_SCRIPT = PIPELINE_DIR / "parse_taskfile.py"
 PATHS_FILE = PIPELINE_DIR / "paths.py"
 
