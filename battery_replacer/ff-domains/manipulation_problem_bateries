@@ -10,7 +10,8 @@
 
 (:init
     (clear pos1)
-    (clear pos2)
+    (in bat2 pos2)
+    (not (clear pos2))
     (in bat3 buffer)
     (in bat4 buffer)
     (handEmpty ur3a)
