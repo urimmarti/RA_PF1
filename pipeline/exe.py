@@ -119,6 +119,8 @@ def execute_sequence(sequence) -> None:
                 with open(ABRIR_PINZA, "rb") as f:
                     sock.sendall(f.read())
             # wait_until_done(dash_sock)
+        time.sleep(2)
+
 
 
     print("Trayectoria finalizada")
